@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test00000001
+  host: test00000001
+  disk_quota: 1024M
+  services:
+  - Speech To Text-ze
+  - Insights for Twitter-k1
